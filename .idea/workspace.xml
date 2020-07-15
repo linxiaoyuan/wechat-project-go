@@ -21,11 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff51d440-c436-4086-b9b8-a84f98b69579" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasource/datasource.go" beforeDir="false" afterPath="$PROJECT_DIR$/datasource/datasource.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/jwt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/book.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/book.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/deferutil.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/deferutil.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +34,33 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:\Go" />
+  <component name="GOROOT" path="$USER_HOME$/sdk/go1.14.4" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1eiPi7p4OVin87i7jCBM1ZF0wFF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -91,16 +99,19 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="255" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594723083577">
+    <state x="255" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594801701292">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="255" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1594723083577" />
+    <state x="255" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1594801701292" />
     <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1594801407661">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -117,6 +128,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1594801407661" />
+    <state x="371" y="210" key="SettingsEditor" timestamp="1594801711784">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="371" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1594801711784" />
     <state x="567" y="204" width="604" height="735" key="find.popup" timestamp="1594801379210">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
