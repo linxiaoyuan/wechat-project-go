@@ -1,4 +1,4 @@
-package webserver
+package web
 
 import (
 	"github.com/kataras/iris/v12"
@@ -6,19 +6,19 @@ import (
 	"github.com/kataras/iris/v12/middleware/recover"
 )
 
-type webserver struct {
-
+type Webserver struct {
+	status int64
 }
 
-func New() *webserver {
-	s := &webserver{
+func New() *Webserver {
+	s := &Webserver{
 
 	}
 
 	return s
 }
 
-func (s *webserver) Run()  {
+func (s *Webserver) Run()  {
 	app := iris.New()
 	app.Logger().SetLevel("debug")
 	// Optionally, add two built'n handlers
@@ -30,6 +30,10 @@ func (s *webserver) Run()  {
 	// Method:   GET
 	// Resource: http://localhost:8080
 	app.Handle("GET", "/", func(ctx iris.Context) {
+		ctx.HTML("<h1>Welcome</h1>")
+	})
+
+	app.Handle("POST", "/", func(ctx iris.Context) {
 		ctx.HTML("<h1>Welcome</h1>")
 	})
 

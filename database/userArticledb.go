@@ -1,5 +1,7 @@
 package database
 
-func userArticleInit()  {
+import "database/sql"
+
+func userArticleInit(db *sql.DB)  {
 	
 }

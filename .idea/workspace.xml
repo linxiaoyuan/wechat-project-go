@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff51d440-c436-4086-b9b8-a84f98b69579" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/DatabaseManager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/articledb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/userArticledb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/userdb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webserver/webserver.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/DatabaseManager.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/DatabaseManager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/articledb.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/articledb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/userArticledb.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/userArticledb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/userdb.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/userdb.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/webserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/webserver.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
@@ -131,29 +131,44 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="255" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1594801701292" />
-    <state width="1697" height="303" key="GridCell.Tab.0.bottom" timestamp="1594965868934">
+    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1595476158265">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1697" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1594965868934" />
-    <state width="1697" height="303" key="GridCell.Tab.0.center" timestamp="1594965868933">
+    <state x="709" y="294" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1595476158265" />
+    <state width="1750" height="303" key="GridCell.Tab.0.bottom" timestamp="1596620265556">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1697" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1594965868933" />
-    <state width="1697" height="303" key="GridCell.Tab.0.left" timestamp="1594965868932">
+    <state width="1750" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1596620265556" />
+    <state width="1750" height="303" key="GridCell.Tab.0.center" timestamp="1596620265555">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1697" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1594965868932" />
-    <state width="1697" height="303" key="GridCell.Tab.0.right" timestamp="1594965868933">
+    <state width="1750" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1596620265555" />
+    <state width="1750" height="303" key="GridCell.Tab.0.left" timestamp="1596620265555">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1697" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1594965868933" />
+    <state width="1750" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1596620265555" />
+    <state width="1750" height="303" key="GridCell.Tab.0.right" timestamp="1596620265556">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1596620265556" />
     <state x="371" y="210" key="SettingsEditor" timestamp="1594801711784">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="371" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1594801711784" />
-    <state x="567" y="204" width="604" height="735" key="find.popup" timestamp="1594801379210">
+    <state x="567" y="204" width="604" height="735" key="find.popup" timestamp="1596618831047">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="567" y="204" width="604" height="735" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1594801379210" />
+    <state x="567" y="204" width="604" height="735" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1596618831047" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/sdk/go1.14.4/src/encoding/json/decode.go</url>
+          <line>101</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

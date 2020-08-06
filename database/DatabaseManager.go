@@ -2,40 +2,57 @@ package database
 
 import (
 	"database/sql"
-	"log"
-	_ "github.com/lib/pq"
 	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/lib/pq"
+	_ "log"
 )
 
 type DBManager struct {
-
+	DB *sql.DB
 }
 
 func New() *DBManager{
-	db := &DBManager{
+	dbManager := &DBManager{
 
 	}
+	dbManager.initDB()
 
-	return db
+
+	return dbManager
 }
 
-var DB *sql.DB
 
+func (dbManager *DBManager) initDB(){
 
-func (db *DBManager) Init(){
-
-	var err error
-	DB, err = sql.Open("mysql", dataBase)
+	db, err := sql.Open("mysql", "root:fghjkl;'@tcp(127.0.0.1:3306)/")
 	if err != nil {
-		log.Fatalln("open db fail:", err)
+		panic(err)
+	}
+	//defer db.Close()
+
+
+	_,err = db.Exec("USE everything")
+	if err != nil {
+		//panic(err)
 	}
 
-	err = DB.Ping()
-	if err != nil {
-		log.Fatalln("ping db fail:", err)
-	}
+	articleDBInit(dbManager.DB)
+	userDBInit(dbManager.DB)
+	userArticleInit(dbManager.DB)
+	dbManager.DB = db
 
-	articleDBInit()
-	userDBInit()
-	userArticleInit()
+	//userDBInsertTestData(db)
+	//userDBSelectAll(db)
+	userDBInsertTestData2(db)
+}
+
+
+
+func (dbManager *DBManager) get() {
+
+}
+
+func (dbManager *DBManager) Dealloc(){
+	dbManager.DB.Close()
+
 }

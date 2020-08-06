@@ -2,23 +2,25 @@ package main
 
 import (
 	"fmt"
-	"github.com/linxiaoyuan/wechat-project/webserver"
 	"github.com/linxiaoyuan/wechat-project/database"
+	"github.com/linxiaoyuan/wechat-project/web"
 )
 
+var dbManager *database.DBManager
+var webServer *web.Webserver
 func main() {
-	fmt.Println("abc")
+	fmt.Println("======Start=======")
 	initDatabase()
 	//startWebServer()
+
+	fmt.Println("======End=========")
 }
 
 func startWebServer()  {
-	web := webserver.New()
-	web.Run()
+	webServer = web.New()
+	webServer.Run()
 }
 
 func initDatabase()  {
-	dbManager := database.New()
-	dbManager.Init()
-
+	dbManager = database.New()
 }
